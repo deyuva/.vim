@@ -54,8 +54,6 @@ nnoremap <CR> :nohlsearch<CR><CR>
 "       Appearance:
 "       ===========
 
-colorscheme industry
-
 set number         
 set relativenumber     
 
@@ -87,4 +85,4 @@ set smartindent         " even better autoindent (e.g. add indent after '{')
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
-echo "sourced ~/.vim/vimrc"
+echo "sourced ~/.vim/basic.vim"

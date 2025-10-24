@@ -17,4 +17,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
+"Appearance:
+Plug 'itchyny/lightline.vim'
+
 call plug#end()
+
+echo "loaded plugins from ~/.vim/plugins.vim"
