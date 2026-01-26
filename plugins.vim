@@ -9,7 +9,7 @@ call plug#begin()
 Plug 'prabirshrestha/vim-lsp' 
 Plug 'mattn/vim-lsp-settings' "easy installationg of LSP servers
 
-"fzf
+"Fzf:
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 

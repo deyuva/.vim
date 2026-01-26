@@ -2,5 +2,6 @@
 "scheme:
 colorscheme industry
 
-"lightline settings
-set noshowmode
+
+echo "sourced ~/.vim/appearance.vim"
+

@@ -3,6 +3,7 @@ filetype off                  " required
 syntax enable                 " use filetype-based syntax highlighting, ftplugins, and indentation
 filetype plugin indent on
 
+
 runtime! ftplugin/man.vim " vim man pages
 
 "       Basic Behavior:
@@ -36,6 +37,7 @@ let g:asyncomplete_auto_popup = 1
 "       =============
 " Note: normap is meant to not recursively keep remapping a char to itself.
 "
+"
 " auto-complete:
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -55,7 +57,7 @@ nnoremap <CR> :nohlsearch<CR><CR>
 "       ===========
 
 set number         
-set relativenumber     
+"set relativenumber
 
 "":set statusline?>  " if this is set rulerformat will be ignored
 
@@ -76,7 +78,6 @@ set softtabstop=4       " backspace after pressing <TAB> will remove up to this 
 
 set autoindent          " copy indent from current line when starting a new line
 set smartindent         " even better autoindent (e.g. add indent after '{')
-
 
 "       Search Settings:
 "       ================
