@@ -1,7 +1,7 @@
 
 "scheme:
-colorscheme industry
-highlight Todo ctermfg=red  guifg=#ff0000
+
+let g:molokai_original = 1
 
 echo "sourced ~/.vim/appearance.vim"
 

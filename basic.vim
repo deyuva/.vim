@@ -16,13 +16,12 @@ set guioptions-=r
 set wrap                " Wrap lines
 set encoding=utf-8      " Set encoding to UTF-8 (default was "latin1")
 set mouse=a             " Enable mouse support 
+hi MatchParen ctermbg=green guibg=red
 set wildmenu            " Visual autocomplete for command menu
 set lazyredraw          " Redraw screen only when we need to
-set showmatch           " Highlight matching parentheses / brackets [{()}]
 set laststatus=2        " Always show statusline (even with only single window)
 set ruler               " Show line and column number of the cursor on right side oatusline
 set visualbell          " Blink cursor on error, instead of beeping
-
 
 "       LSP:
 "       ==============
