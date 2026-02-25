@@ -45,5 +45,3 @@ nnoremap <leader>gm '
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>fs :Rg<CR>
 
-echo "sourced ~/.vim/keybinds.vim"
-

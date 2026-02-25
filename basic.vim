@@ -30,6 +30,8 @@ set visualbell          " Blink cursor on error, instead of beeping
 "       ==============
 "
 let g:asyncomplete_auto_popup = 1
+let g:lsp_diagnostics_virtual_text_enabled = 0
+
 ""set completeopt= menuone,noinsert,noselect,preview
 
 "       Key Bindings:
@@ -85,4 +87,3 @@ set smartindent         " even better autoindent (e.g. add indent after '{')
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
-echo "sourced ~/.vim/basic.vim"
